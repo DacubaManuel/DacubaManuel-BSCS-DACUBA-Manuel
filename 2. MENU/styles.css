@@ -1,0 +1,46 @@
+body{
+   background:url(burger.jpeg);
+}
+body{
+    display: flex;
+    flex-direction:column;
+    height:100px;
+    width:500px;
+    border:2px solid black;
+    margin:auto;
+    margin-top:240px;
+    border-radius:25px;
+    background-color: burlywood;
+}
+body h1{
+    text-align: center;
+    background-color: burlywood;
+}
+body h3{
+    text-align: center;
+    background-color: burlywood;
+} 
+ul{
+    list-style-type:circle;
+    background-color: burlywood;
+}
+body{
+    display: flex;
+    flex-direction:column;
+    height:820px;
+    width:600px;
+    border:2px solid black;
+    margin:auto;
+    margin-top:80px;
+    border-radius:25px;
+    background-color: burlywood;
+}
+div{
+    background-color: burlywood;
+}
+form{
+    background-color: burlywood;
+}
+h1{
+    background-color: burlywood;
+}

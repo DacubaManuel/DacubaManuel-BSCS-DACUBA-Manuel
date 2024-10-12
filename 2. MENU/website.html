@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Please Sign In</title>
+    
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <hr>
+   <div>
+        <a href="index.html">Home page</a>
+        <h1>Registration Form</h1>
+        <h4>Please fill out this form with the required information</h4>
+        <br>
+        <label form="Enter Your First Name">Enter Your First Name</label><br/>
+        <input type="text" id="Enter Your First Name" required/><br><br/>
+
+        <label form="Enter Your Last Name">Enter Your Last Name</label><br/>
+        <input type="text" id="Enter Your Last Name" required/><br><br/>
+
+        <label form="Enter Your Email">Enter Your Email</label><br/>
+        <input type="text" id="Enter Your Email"required/><br><br/>
+
+        <label form="Create a New Password">Create a New Password</label><br/>
+        <input type="text" id="Create a New Password"required/><br><br/>
+   </div>
+
+   <form>
+        <label>Account type(required):</label><br><br>
+        <input type="radio" name="Account type"required value="Personal" id="Personal"/>
+        <label for="Personal"> Personal</label>
+        <br/>
+        <input type="radio" name="Account type" required value="Business" id="Business"/>
+        <label for="Personal">Business</label>
+        <br/>
+        <br>
+
+        <hr>
+
+        <strong>Upload a profile picture:</strong><br>
+        <input type="file"required>
+        <br>
+        <strong>Input your age</strong><br>
+        <input type="age"required>
+        <br>
+
+       <strong><label for="How did you hear adout us?"required>How did you hear adout us?</label></strong><br>
+            <select id="How did you hear adout us?">
+            <option value="Friend">Friend</option>
+            <option value="Stranger">Stranger</option>
+            <option value="Social Media">Social Media</option></select>
+            <br/><br/>
+
+            <label for="Provide a bio">Provide a bio</label><br/>
+            <textarea id="Provide a bio"required></textarea><br/><br/> 
+            
+            <input type="checkbox">I accept the <ins>terms and conditions</ins></label>
+    </form>
+
+    <h1><button type="submit">SUBMIT</button></h1>    
+</body>
+</html>
